@@ -1,10 +1,10 @@
-# Facebook / Instagram lead forms into GHL
+# Facebook / Instagram lead forms into M71
 
 ## Connecting
 
 Sub-account **Settings → Integrations → Facebook → Connect**. Log in, tick only the client's page, enable
 "new leads" sync, then **Configure field mapping**. Each lead form on the page gets a **Map Fields** button: map
-full name, phone, email and any custom question to a GHL field, confirm, and switch the form on. Save.
+full name, phone, email and any custom question to an M71 field, confirm, and switch the form on. Save.
 
 ## Why leads don't arrive
 
@@ -39,7 +39,7 @@ Other notes:
 1. Go to <https://developers.facebook.com/tools/lead-ads-testing>, pick the page and the form.
 2. Use **Preview form** (not "Create lead", which fills dummy values). It's prefilled with your own name and
    phone and you can edit them.
-3. Submit. The contact reaches GHL in under a minute and any workflow on the form trigger runs for real
+3. Submit. The contact reaches M71 in under a minute and any workflow on the form trigger runs for real
    (WhatsApp/SMS included).
 
 A second test with the same phone **merges into the existing contact**: tags and fields update, but no new

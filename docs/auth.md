@@ -47,10 +47,9 @@ Add a scope later by editing the integration; the token stays the same.
 
 ## Agency-level access (many sub-accounts)
 
-For an app that serves several sub-accounts, use OAuth 2.0 through a Marketplace app
-(<https://marketplace.gohighlevel.com>). The request shapes in these docs are the same; only the token changes.
+For an app that serves several sub-accounts, use an OAuth 2.0 Marketplace app. The request shapes in these docs are the same; only the token changes.
 
 ## What doesn't work
 
-- The session token the GHL web app uses internally is not meant for scripts. It expires within hours, and calls
+- The session token the M71 web app uses internally is not meant for scripts. It expires within hours, and calls
   made with it from outside the browser are blocked by Cloudflare (`403`). Use a Private Integration token.
