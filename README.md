@@ -12,6 +12,7 @@ docs and the real responses disagree, these notes follow the real responses.
 | File | What it covers |
 |---|---|
 | [docs/auth.md](docs/auth.md) | Private Integration tokens, headers, scopes, base URL |
+| [docs/proxy-access.md](docs/proxy-access.md) | Working with an M71 proxy key: base URL, what it allows, why your changes don't start automations |
 | [docs/contacts.md](docs/contacts.md) | Create, find, search and update contacts; custom fields; notes; attribution |
 | [docs/opportunities.md](docs/opportunities.md) | Pipelines, stages, creating and moving opportunities, search filters |
 | [docs/facebook-leads.md](docs/facebook-leads.md) | Facebook / Instagram lead forms into M71, and why leads go missing |
@@ -20,6 +21,8 @@ docs and the real responses disagree, these notes follow the real responses.
 | [examples/](examples/) | Runnable curl and Node.js scripts |
 
 ## Quick start
+
+Got an M71 proxy key (`m71_...`) rather than a `pit-...` token? Start with [docs/proxy-access.md](docs/proxy-access.md).
 
 1. In the sub-account: **Settings → Private Integrations → Create new integration**. Give it the scopes you need
    (for leads: `contacts.readonly`, `contacts.write`, `opportunities.readonly`, `opportunities.write`).
